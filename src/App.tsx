@@ -155,7 +155,7 @@ function App() {
       height: 'auto',
       transition: {
         duration: 0.25,
-        ease: "easeInOut"
+        ease: "easeInOut" as const
       }
     },
     exit: {
@@ -163,7 +163,7 @@ function App() {
       height: 0,
       transition: {
         duration: 0.25,
-        ease: "easeInOut"
+        ease: "easeInOut" as const
       }
     }
   }
